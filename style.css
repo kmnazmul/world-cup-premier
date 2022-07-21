@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* General Css End */
+
+/* header css start  */
+#worldcup-header {
+    padding-top: 50px;
+}
+
+#worldcup-header .header-content {
+    height: 613px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#worldcup-header .header-text {
+    width: 530px;
+}
+
+#worldcup-header .header-text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+#worldcup-header .header-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 16px 0 30px;
+}
+
+#worldcup-header .header-button {
+    padding: 10px 20px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+#worldcup-header .header-img {
+    width: 580px;
+    height: 583px;
+    padding-top: 30px;
+}
+
+#worldcup-header .header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*  header css end */
+/* main css start  */
+#worldcup-main {
+    padding: 130px 0;
+}
+
+#worldcup-main .main-content {
+    display: flex;
+    align-items: stretch;
+
+}
+
+#worldcup-main .main-sidebar {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+
+
+}
+
+#worldcup-main .main-sidebar a {
+    width: 252px;
+    padding: 16px 38px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#worldcup-main .main-sidebar a.active {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
+#worldcup-main .main-article {
+
+    flex-grow: 1;
+
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.article {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#worldcup-main .blog-img {
+    width: 312px;
+    height: 175px;
+}
+
+#worldcup-main .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#worldcup-main .blog-content {
+    padding: 20px;
+}
+
+#worldcup-main .blog-content a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #161616;
+    padding: 5px 16px;
+    color: #161616;
+}
+
+#worldcup-main .blog-content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0 20px;
+    color: #161616;
+}
+
+#worldcup-main .blog-tag {
+    display: flex;
+    align-items: center;
+}
+
+#worldcup-main .blog-tag .time {
+    margin-right: 30px;
+}
+
+#worldcup-main .blog-tag .time p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+#worldcup-main .blog-tag .time p i {
+    padding-right: 10px;
+    color: #b6b6b6;
+}
+
+#worldcup-main .blog-tag .comment {}
+
+#worldcup-main .blog-tag .comment p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+#worldcup-main .blog-tag .comment p i {
+    padding-right: 10px;
+    color: #ddd;
+}
+
+/* upcoming page sart  */
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.group {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 52px 0;
+}
+
+.group-flag {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.group-flag .flag {
+    width: 90px;
+    height: 55px;
+}
+
+.group-flag .flag img {
+    width: 100%;
+    height: 100%;
+}
+
+.group-flag span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.group h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.group p {
+    font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #4D4D4D;
+
+}
+
+/* upcoming page end */
+
+
+/* main css end */
+/* footer start css */
+footer {
+    background-color: #161616;
+    text-align: center;
+    padding: 130px 0;
+}
+
+
+footer .footer-main h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+footer hr {
+    margin: 50px 0;
+}
+
+footer .footer-link {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-link a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    margin: 0 15px;
+
+}
+
+footer .social a i {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+/* footer end css */
